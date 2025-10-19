@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer Lab - Realidad Aumentada para Gamers</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/inicio.css">
+</head>
+<body>
+    
+    <!-- HEADER FIJO -->
+    <header class="header" id="header">
+        <div class="header-container">
+            <!-- Logo a la izquierda -->
+            <div class="logo-container">
+                <img src="../images/logo.png" alt="Gamer Lab Logo" class="logo">
+            </div>
+            
+            <!-- Menú directo a la derecha -->
+            <nav class="nav-menu">
+                <a href="catalogo.html" class="nav-link">Catálogo</a>
+                <span class="nav-separator">|</span>
+                <a href="cotizador.html" class="nav-link">Cotizador</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+        <!-- Imagen/GIF de fondo - REEMPLAZAR con tu GIF -->
+        <div class="hero-bg">
+            <img src="../images/hero-bg.gif" alt="Gaming Background" class="hero-bg-img">
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-up">Gamer Lab</h1>
+            <p class="hero-subtitle animate-fade-up delay-1">Visualiza tu setup gamer en realidad aumentada antes de comprarlo</p>
+            <p class="hero-description animate-fade-up delay-2">
+                Descubre una plataforma innovadora que revoluciona tu experiencia de compra gaming. 
+                Combina tecnología de realidad aumentada con cotización inteligente para que puedas 
+                visualizar productos en 3D directamente en tu espacio real. Diseña tu setup perfecto 
+                antes de invertir y toma decisiones informadas con nuestro sistema de cotización avanzado.
+            </p>
+            
+            <div class="hero-buttons animate-fade-up delay-3">
+                <a href="catalogo.html" class="btn btn-primary">
+                    <span>Explorar Catálogo</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SECCIÓN QUIÉNES SOMOS -->
+    <section class="about-section section-padding" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">Quiénes Somos</h2>
+            <p class="section-description fade-in">
+                Somos pioneros en la integración de tecnología de realidad aumentada con el mundo gaming. 
+                Nuestra misión es transformar la experiencia de compra de productos tecnológicos, permitiendo 
+                que cada gamer visualice su setup ideal antes de realizar cualquier inversión. Con años de 
+                experiencia en el mercado gaming y tecnológico, ofrecemos una plataforma única que combina 
+                innovación, precisión y la mejor selección de productos del mercado.
+            </p>
+            
+            <div class="badges-grid fade-in">
+                <div class="badge-item">
+                    <i class="fas fa-vr-cardboard"></i>
+                    <h3>Realidad Aumentada</h3>
+                </div>
+                <div class="badge-item">
+                    <i class="fas fa-calculator"></i>
+                    <h3>Cotizador Inteligente</h3>
+                </div>
+                <div class="badge-item">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Productos Gamer</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN QUÉ OFRECEMOS -->
+    <section class="services-section section-padding" id="services">
+        <div class="container">
+            <h2 class="section-title fade-in">Qué Ofrecemos</h2>
+            
+            <div class="services-grid">
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Catálogo 3D Interactivo</h3>
+                    <p>Explora nuestra amplia selección de productos gaming en modelos 3D de alta calidad. Rota, amplía y examina cada detalle antes de decidir.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Realidad Aumentada</h3>
+                    <p>Visualiza cómo se verán los productos en tu espacio real usando tu dispositivo móvil. Planifica tu setup perfecto sin errores.</p>
+                </div>
+                
+                <div class="service-card fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Cotización Inteligente</h3>
+                    <p>Calcula precios, IVA y opciones de financiamiento en tiempo real. Nuestro sistema te ayuda a planificar tu inversión gaming.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN PRODUCTOS DESTACADOS -->
+    <section class="products-section section-padding" id="products">
+        <div class="container">
+            <h2 class="section-title fade-in">Productos Destacados</h2>
+            
+            <div class="products-grid">
+                <!-- Producto 1: Teclado -->
+                <div class="product-card fade-in">
+                    <div class="product-image">
+                        <img src="../images/teclado1.png" alt="Teclado Gamer">
+                    </div>
+                    <div class="product-info">
+                        <h3>Teclado Gamer</h3>
+                        <p class="product-price">$XXX.XX</p>
+                    </div>
+                </div>
+                
+                <!-- Producto 2: Computadora -->
+                <div class="product-card fade-in">
+                    <div class="product-image">
+                        <img src="../images/pc1.png" alt="Computadora Gaming">
+                    </div>
+                    <div class="product-info">
+                        <h3>Computadora Gaming</h3>
+                        <p class="product-price">$XXX.XX</p>
+                    </div>
+                </div>
+                
+                <!-- Producto 3: Monitor -->
+                <div class="product-card fade-in">
+                    <div class="product-image">
+                        <img src="../images/monitor1.png" alt="Monitor 4K">
+                    </div>
+                    <div class="product-info">
+                        <h3>Monitor 4K</h3>
+                        <p class="product-price">$XXX.XX</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Botón Ver Catálogo Completo -->
+            <div class="catalog-btn-container fade-in">
+                <a href="catalogo.html" class="btn btn-primary btn-large">
+                    Ver Catálogo Completo
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCIÓN CONTACTO -->
+    <section class="contact-section section-padding" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Contáctanos</h2>
+            
+            <form class="contact-form fade-in" id="contactForm">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Nombre completo" required>
+                </div>
+                
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Correo electrónico" required>
+                </div>
+                
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Mensaje" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">
+                    Enviar Mensaje
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p class="copyright">Copyright © 2025 Gamer Lab - Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+    <!-- BOTÓN FLOTANTE WHATSAPP -->
+    <a href="https://wa.me/593960145588?text=Hola, vengo de Gamer Lab. Quiero información" 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       aria-label="Contactar por WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="../js/inicio.js"></script>
+</body>
+</html>
